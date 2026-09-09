@@ -3,13 +3,38 @@
 <html>
 
 <head>
+	<title>My Accessible Portfolio</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+	<h1 role="heading">My Portfolio</h1>
+
+	<nav role="navigation">
+		<a href="#about">About</a>
+		<a href="#skills">Skills</a>
+		<a href="#contact">Contact</a>
+	</nav>
+
+	<img 
+		role="img" 
+		src="https://via.placeholder.com/200" 
+		alt="Profile picture representing my portfolio"
+	>
+
+	<p id="about">
+		Hello! I am a passionate computer science student interested in
+		web development, programming, and technology.
+	</p>
+
+	<ul role="list">
+		<li role="listitem">Web Development</li>
+		<li role="listitem">JavaScript Programming</li>
+		<li role="listitem">Cloud Computing</li>
+	</ul>
+
+    <script type="text/javascript" src="./script.js"></script>
 
 </body>
 
